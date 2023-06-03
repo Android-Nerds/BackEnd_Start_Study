@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@android-nerds.code-speed.com:1521:XE
+    username: young
+    password: ckyoung8004
